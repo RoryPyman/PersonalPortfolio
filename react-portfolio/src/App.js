@@ -10,6 +10,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />} >
         <Route path="/" element={<Home />} />
+        <Route path="/about"  />
+        <Route path="/contact" />
       </Route>
     </Routes></>
   );
